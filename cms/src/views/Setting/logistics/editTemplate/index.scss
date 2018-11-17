@@ -1,0 +1,117 @@
+.table-bordered td, .table-bordered th { 
+    vertical-align: middle !important;
+}
+
+.drop-enter-active {
+    transition: all .5s ease;
+  }
+  .drop-leave-active {
+    transition: all .3s ease;
+  }
+  .drop-enter {
+    transform: translateY(-500px);
+  }
+  .drop-leave-active {
+    transform: translateY(-500px);
+  }
+
+  .dialog-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .dialog-cover {
+    background: #000;
+    opacity: .3;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .dialog-content {
+    width: 50%;
+    position: fixed;
+    max-height: 50%;
+    overflow: auto;
+    background: #fff;
+    top: 20%;
+    left: 50%;
+    margin-left: -25%;
+    z-index: 10;
+    border: 2px solid #464068;
+    padding: 2%;
+    line-height: 1.6;
+  }
+  .dialog-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .dialog-close:hover {
+    color: #4fc08d;
+  }
+
+  .radio-inline{
+	margin-left:20px;
+  }
+
+  .form-group{
+  	margin-top:5px;
+  }
+  .yunsong{
+  	display:none;
+  }
+
+  .kuaidi{
+
+  	width:100%;
+  	border:1px solid #ccc;	
+  	height:auto;
+  }
+
+  p {
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+
+   .entity{ padding:  10px;}
+
+tbody tr td input {
+    width: 75px;
+    text-align: center;
+}
+
+table tbody tr td .area-group p {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.tbl-except table tr th, .tbl-except table tr td, .specified-dis table tr th, .specified-dis table tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead tr th {
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+
+table tbody tr td a.exit-area {
+    float: right;
+}
+
+.table-bordered {
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+{
+    "condition": {
+        "self": {
+            "expend": 1000
+        },
+        "children": {
+            "num": 10
+        }
+    }
+}

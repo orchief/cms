@@ -1,0 +1,96 @@
+
+
+.pageNumber .pagination {
+    border-left: 1px solid #ddd;
+}
+.pagination span.page-cur, .pagination a {
+    padding: 5px 10px;
+    float: left;
+    border: 1px solid #ddd;
+    border-left: none;
+    color: #337ab7;
+    font-size: 12px;
+}
+.pagination span.page-cur {
+    background-color: #5AC1DF;
+    color: #fff;
+}
+.pageNumber .pagination .page-skip {
+    display: inline-block;
+    height: 29px;
+    font-size: 12px;
+    line-height: 29px;
+    margin-left: 5px;
+}
+.pageNumber .pagination .page-skip input {
+    line-height: 26px;
+    border: 1px solid #ddd;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.pageNumber .pagination .page-skip input.button {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    border-radius: 4px;
+    color: #fff;
+    width: auto;
+}
+.pageNumber {
+    text-align: justify;
+}
+.mar, .mar.forced, .set-switch .form-horizontal .form-group {
+    // margin: 0;
+}
+.blank {
+    margin-bottom: 20px;
+}
+.nav-tabs>li>a {
+    margin-right: 0;
+    border: 1px solid #ddd;
+    padding: 7px 15px;
+    background-color: #f8f8f8;
+}
+.table-page {
+    position: relative;
+}
+.set-switch {
+    position: relative;
+    background-color: #F7F7F7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.form-inline .form-control.resetSize, .form-control.resetSize {
+    padding: 2px 12px;
+    height: 27px;
+}
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font: inherit; */
+    font-family: Helvetica,STHeiti,"Microsoft YaHei",Verdana,Arial,Tahoma,sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    word-break: break-all;
+}
+.table-bordered td, .table-bordered th {
+ 
+    font-size: 11px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    padding-right: 0;
+    margin-bottom: 0;
+    text-align: left  !important;
+}
+
+form label {
+    width: auto  !important;
+    // height: 0px  !important;
+    vertical-align: middle;
+}
